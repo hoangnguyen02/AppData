@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E6E6E6">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/primary_text_dark"
+        android:textColor="@color/black"
+        android:text="Title Text"
+        />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="375dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Description Text"
+        android:background="@android:color/primary_text_dark"
+        android:textColor="@color/black"/>
+
+    <!-- Các phần tử giao diện khác của mục danh sách -->
+</LinearLayout>
